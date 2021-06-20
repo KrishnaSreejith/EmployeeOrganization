@@ -10,11 +10,11 @@ codeigniter project
 
      Database Details
 
-         database name : employee
+         database name : employee (the database employee.sql attached in above)
          username : localhost
          password :none
          dbdriver : mysqli
- 
+  
   * Features in this project : 
  
  1.There is an insert process,upload csv file ,pagination.
