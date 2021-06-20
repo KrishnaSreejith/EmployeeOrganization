@@ -15,6 +15,11 @@ codeigniter project
          password :none
          dbdriver : mysqli
  
+  * Features in this project : 
+ 
+ 1.There is an insert process,upload csv file ,pagination.
+ 2.Will get download sample csv file .
+ 3.there is insert datas in two ways ,through form and csv file.
  
   
 * How to execute this project
