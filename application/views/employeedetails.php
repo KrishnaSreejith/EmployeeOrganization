@@ -135,7 +135,6 @@ $(document).ready(function() {
 						$('#success').html('Data added successfully !'); 
                                                 setTimeout(function(){  
                                                 $('#success').fadeOut("Slow");  
-                                                $('#epcode').fadeOut("Slow");  
                                                 }, 2000);  
                                       
                                           
