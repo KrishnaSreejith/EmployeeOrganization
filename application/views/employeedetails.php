@@ -24,7 +24,7 @@
   
 <table style="width:70%">
   <tr>
-    
+    <th>SI.No:</th>
     <th>Employee Code</th>
     <th>Employee Name</th> 
     <th>Department</th>
@@ -35,6 +35,7 @@
   <?php 
   
   if(!empty($employeeInfo)){
+   $x= 1 + ($this->pagination->cur_page-1)*$this->pagination->per_page;     
    foreach ($employeeInfo as $value) {
    $from = new DateTime($value['DateofBirth']);
    $to   = new DateTime('today');
@@ -44,6 +45,7 @@
       
   ?>
   <tr>
+     <td><?php echo $x++;?></td>
      <td><?php echo $value['Employeecode'];?></td>
      <td><?php echo $value['Name'];?></td>
      <td><?php echo $value['Department'];?></td>
